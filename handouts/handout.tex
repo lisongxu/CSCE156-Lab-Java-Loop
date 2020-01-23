@@ -299,6 +299,9 @@ for(String s : arr) {
 }
 \end{minted}
 
+An enhanced for-loop can be used for most collections including
+\mintinline{java}{List} and \mintinline{java}{Set} collections.
+
 \section*{Activities}
 
 \subsection*{Sum of Natural Numbers}
@@ -350,11 +353,24 @@ Total Credit:   $1500.00
   	\mintinline{text}{ChildCredit.java} source files
   \item The \mintinline{java}{Child} class has already been implemented
   	for you. Note how the \mintinline{java}{Child} class is used; several 
-	instances of children have been created and placed into an array.
+	instances of children have been created and placed into a
+	\mintinline{java}{List}.  
+	
+	Similar to an array, a \mintinline{java}{List} stores elements using
+	0-indexing.  Each one can be accessed using the \mintinline{java}{get}
+	method.  For example, \mintinline{java}{kids.get(i)} gets the $i$-th
+	kid.  You could also use an \emph{enhanced for loop} to iterate over
+	the elements in a \mintinline{java}{List}.  
+	
   \item Write code to iterate over the array, compute the child tax 
-	credits and output a table similar to the one above.  Note: to 
-	call a method on an instance of the \mintinline{java}{Child} class, 
-	use the following syntax: \mintinline{java}{kid.getAge()}
+	credits and output a table similar to the one above.  
+	
+	Each child is an \emph{instance} of the \mintinline{java}{Child} class.
+	Each instance has its own variables so that each child can be a
+	different age.  To get a particular child's age, you can use a
+	``getter'' method.  For example, to get the age of \mintinline{java}{tom}
+	you can use the syntax \mintinline{java}{tom.getAge()}
+
   \item Answer the questions in your worksheet and demonstrate your 
   	working code to a lab instructor.
 \end{enumerate}
