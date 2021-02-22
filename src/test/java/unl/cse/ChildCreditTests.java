@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.junit.jupiter.api.Assertions;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 public class ChildCreditTests {
 
@@ -14,7 +14,7 @@ public class ChildCreditTests {
 	 * correctly computes the total child tax credit.
 	 */
 	@Test
-	void produceReportFixedTest01() {
+	public void produceReportFixedTest01() {
 		List<Child> kids = new ArrayList<>();
 		kids.add(new Child("A", 10));
 		kids.add(new Child("B", 12));
@@ -32,7 +32,7 @@ public class ChildCreditTests {
 	 * correctly computes the total child tax credit.
 	 */
 	@Test
-	void produceReportFixedTest02() {
+	public void produceReportFixedTest02() {
 		List<Child> kids = new ArrayList<>();
 		kids.add(new Child("A", 19));
 		kids.add(new Child("B", 19));
@@ -47,7 +47,7 @@ public class ChildCreditTests {
 	 * correctly computes the total child tax credit.
 	 */
 	@Test
-	void produceReportFixedTest03() {
+	public void produceReportFixedTest03() {
 		List<Child> kids = new ArrayList<>();
 		int expected = 0;
 		int result = ChildCredit.produceReport(kids);
@@ -59,7 +59,7 @@ public class ChildCreditTests {
 	 * correctly computes the total child tax credit.
 	 */
 	@Test
-	void produceReportFixedTest04() {
+	public void produceReportFixedTest04() {
 		List<Child> kids = new ArrayList<>();
 		kids.add(new Child("A", 5));
 		kids.add(new Child("B", 21));
@@ -73,7 +73,7 @@ public class ChildCreditTests {
 	 * correctly computes the total child tax credit.
 	 */
 	@Test
-	void produceReportFixedTest05() {
+	public void produceReportFixedTest05() {
 		List<Child> kids = new ArrayList<>();
 		kids.add(new Child("A", 8));
 		kids.add(new Child("B", 5));
