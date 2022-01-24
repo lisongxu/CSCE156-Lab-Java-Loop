@@ -131,7 +131,7 @@ data.
     
 3.  Write a an enhanced for-loop to iterate over the elements of the `zeroToTen`
     array. As you iterate over the elements, concatenate each
-    string, delimited by a single space to a result string and print the
+    string, delimiting each word with a plus sign and the
     result at the end of the loop. Your result should look something
     like the following:
     
