@@ -1,20 +1,61 @@
 package unl.cse;
 
-import org.junit.runner.JUnitCore;
-import org.junit.runner.Result;
+import org.junit.platform.launcher.LauncherDiscoveryRequest;
+import org.junit.platform.launcher.listeners.SummaryGeneratingListener;
+import org.junit.platform.launcher.TestPlan;
+import org.junit.platform.launcher.Launcher;
+import org.junit.platform.launcher.core.LauncherDiscoveryRequestBuilder;
+import org.junit.platform.launcher.core.LauncherFactory;
+import static org.junit.platform.engine.discovery.DiscoverySelectors.*;
+import org.junit.platform.launcher.listeners.TestExecutionSummary;
 
+import java.io.PrintWriter;
+
+/**
+ * This is a batch test file used by grading scripts to generate a full roster
+ * grade report.
+ * 
+ * @author cbourke
+ *
+ */
 public class BatchTest {
 
-	public static void main(String[] args) {
-		
-		String login = args.length > 1 ? args[0] : "nologin";
-		JUnitCore jUnitCore = new JUnitCore();
-		Result r = jUnitCore.run(NaturalTests.class, ChildCreditTests.class);
+	SummaryGeneratingListener listener = new SummaryGeneratingListener();
 
-		System.out.printf("%s,%d,%d\n", 
-				login,
-				r.getFailureCount(),
-				r.getRunCount());
+	public void runAll() {
+		LauncherDiscoveryRequest request = LauncherDiscoveryRequestBuilder.request()
+				.selectors(selectClass(NaturalTests.class))
+				.selectors(selectClass(ChildCreditTests.class))				
+				.build();
+		Launcher launcher = LauncherFactory.create();
+		TestPlan testPlan = launcher.discover(request);
+		launcher.registerTestExecutionListeners(listener);
+		launcher.execute(request);
+	}
+
+	public static void main(String[] args) {
+
+		BatchTest bt = new BatchTest();
+
+		bt.runAll();
+
+		TestExecutionSummary summary = bt.listener.getSummary();
+		// summary.printTo(new PrintWriter(System.out));
+
+		int labPoints = 20;
+		long numTests = summary.getTestsFoundCount();
+		long numFail = summary.getTestsFailedCount();
+		long numPass = summary.getTestsSucceededCount();
+
+		// prints total number of points, number of pass/fail
+		// and total tests in csv format
+		System.out.printf("%d,%d,%d,%d", 
+				        numFail == 0 ? labPoints : 0, 
+						numPass, 
+						numFail, 
+						numTests);
+
 	}
 
 }
+
