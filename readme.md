@@ -140,7 +140,8 @@ data.
 ### 3.2 Child Tax Credit
 
 When filing for federal taxes, a credit is given to tax payers with
-dependent children according to the following rules. The first dependent
+dependent children according to the following rules. The first (not necessarily
+the oldest) dependent
 child younger than 18 is worth a $1,000.00 credit. Each dependent child
 younger than 18 after the first child is worth a $500 tax credit each.
 You will complete a Java program to output a table of dependent
@@ -167,8 +168,8 @@ Total Credit:   $1500.00
     the elements in the `List`.
 
 3.  Implement the `produceReport` method to compute the child tax credit(s)
-    and output a table similar to the one above.  Your method should return
-    the grand total of the credit.  
+    and output a table similar to the one above.  Your method ***should return
+    the grand total of the credit***.  
     
     Each child is an *instance* of the `Child` class. Each instance has its own
     variables so that each child can be a different age. To get a
