@@ -9,7 +9,9 @@ import org.junit.platform.launcher.core.LauncherFactory;
 import static org.junit.platform.engine.discovery.DiscoverySelectors.*;
 import org.junit.platform.launcher.listeners.TestExecutionSummary;
 
-import java.io.PrintWriter;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 
 /**
  * This is a batch test file used by grading scripts to generate a full roster
@@ -24,20 +26,34 @@ public class BatchTest {
 
 	public void runAll() {
 		LauncherDiscoveryRequest request = LauncherDiscoveryRequestBuilder.request()
-				.selectors(selectClass(NaturalTests.class))
-				.selectors(selectClass(ChildCreditTests.class))				
+				.selectors(selectClass("unl.cse.NaturalTests"))
+		        .selectors(selectClass("unl.cse.ChildCreditTests"))
 				.build();
 		Launcher launcher = LauncherFactory.create();
+		@SuppressWarnings("unused")
 		TestPlan testPlan = launcher.discover(request);
 		launcher.registerTestExecutionListeners(listener);
 		launcher.execute(request);
 	}
 
+
 	public static void main(String[] args) {
 
+		//suppress standard output while tests are run
+		PrintStream original = new PrintStream(System.out);
+		PrintStream nps;
+		try {
+			nps = new PrintStream(new FileOutputStream("/dev/null"));
+			System.setOut(nps);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
 		BatchTest bt = new BatchTest();
 
 		bt.runAll();
+		
+		//restore standard output for report
+		System.setOut(original);
 
 		TestExecutionSummary summary = bt.listener.getSummary();
 		// summary.printTo(new PrintWriter(System.out));
