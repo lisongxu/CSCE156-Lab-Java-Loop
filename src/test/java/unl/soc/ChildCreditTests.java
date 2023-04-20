@@ -1,9 +1,12 @@
-package unl.cse;
+package unl.soc;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.jupiter.api.Assertions;
+
+import unl.soc.Child;
+import unl.soc.ChildCredit;
 
 import org.junit.Test;
 

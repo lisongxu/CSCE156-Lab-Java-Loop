@@ -1,6 +1,9 @@
-package unl.cse;
+package unl.soc;
 
 import org.junit.jupiter.api.Assertions;
+
+import unl.soc.Natural;
+
 import org.junit.Test;
 
 public class NaturalTests {

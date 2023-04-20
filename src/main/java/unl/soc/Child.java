@@ -1,4 +1,4 @@
-package unl.cse;
+package unl.soc;
 
 /**
  * A basic data class that models a child.

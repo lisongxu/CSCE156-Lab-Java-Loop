@@ -1,4 +1,4 @@
-package unl.cse;
+package unl.soc;
 
 /**
  * This program demonstrates the use of various loop control structures to
