@@ -30,8 +30,7 @@ Following the lab, you should be able to:
 At the start of
 each lab, you may find a team member by yourself or may be randomly paired up with another student by
 a lab instructor.  One of you will be designated the *driver* 
-and the other the *navigator*. If you prefer to work on this lab by yourself, that is fine too.  
-Each week you should try to alternate: if you were a driver 
+and the other the *navigator*. If you prefer to work on this lab by yourself, that is fine too.  Each week you should try to alternate: if you were a driver 
 last week, be a navigator next, etc. 
 
 ***Note that, each student must submit the code to CodePost for grading.***
@@ -100,7 +99,7 @@ Total Credit:   $1500.00
     particular child’s age, you can use a *getter* method. For example,
     to get the age of `tom` you can use the syntax, `tom.getAge()`
 
-### 2. Testing, Submitting & Grading
+### 3. Testing, Submitting & Grading
 
 
 ### 3.1 Testing Locally
