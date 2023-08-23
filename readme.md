@@ -1,7 +1,7 @@
 # Computer Science II
-## Lab 3.0 - Conditionals & Loops
+## Lab 3.0 - Loops
 
-An introduction to the conditionals and loops in the Java programming language.
+An introduction to the loops in the Java programming language.
 
 This is a lab used in Computer Science II (CSCE 156) for Fall 2023 
 in the [School of Computing](https://computing.unl.edu) 
@@ -11,9 +11,6 @@ at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ### Resources
 
-Java tutorial
-* `if-else tutorial`:
-http://download.oracle.com/javase/tutorial/java/nutsandbolts/if.html
 * `for` loop tutorial:
 http://download.oracle.com/javase/tutorial/java/nutsandbolts/for.html
 * `while` loop tutorial:
@@ -23,8 +20,6 @@ http://download.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 ### Lab Objectives & Topics
 
 Following the lab, you should be able to:
-* Use `if-else` statements to control the logical flow of the
-  program.
 * Use `for` and `while` loops to implement repetition statements in a
   program.
 * Write complex programs that require conditional logical statements
@@ -48,76 +43,25 @@ Clone this project code for this lab from GitHub in Eclipse using the
 URL: https://github.com/lisongxu/CSCE156-Lab-Java-Loop. Refer to [Lab 1.0](https://github.com/lisongxu/CSCE156-Lab-Java-Intro) for
 instructions on how to clone a project from GitHub.
 
-## 2. Conditionals & Loops
+## 2. Activities 
 
-Java provides standard control structures for conditionals and
-repetition. Specifically, Java provides the usual `if-else`
-statements as well as `for` and `while` loops. The syntax for these
-control structures should look familiar.  Some examples:
-
-```java
-if(x > 0) {
-  //DO SOMETHING
-} else if(x < 0) {
-  //DO SOMETHING ELSE
-} else {
-  //OTHERWISE
-}
-
-for(int i=0; i<n; i++) {
-  //DO SOMETHING
-}
-
-int i = 0;
-while(i < n) {
-  //DO SOMETHING
-  i++;
-}
-```
-
-In addition, Java provides a foreach-loop, also referred to as an
-*enhanced for-loop*, for iterating over collections or elements in an 
-array.  This feature is mostly for convenience.  The following example
-demonstrates how to use this loop.
-
-```java
-String arr[] = new String[10];
-...
-for(String s : arr) {
-  System.out.println(s); 
-}
-```
-
-An enhanced for-loop can be used for `Set` and `List` collections.
-
-## 3. Activities 
-
-### 3.1 Sum of Natural Numbers
+### 2.1 Sum of Natural Numbers
 
 Natural numbers are the usual counting numbers; 1, 2, 3, ... In this
 exercise you will write several loops to compute the sum of natural
-numbers 1 thru `n` where `n` is read from the command line. You will
-also write an enhanced for-loop to iterate over an array and process
-data.
+numbers 1 thru `n` where `n` is read from the command line. Refer to [Lab 1.0](https://github.com/lisongxu/CSCE156-Lab-Java-Intro) for
+instructions on how to use the command line argument. 
 
 1.  Open the `Natural.java` source file. The code to read in `n` has been
-    provided for you. An array mapping integer values 1 thru 10 to text
-    values has also been created for you.
-
+    provided for you. The code to output 
+    the result has also been provided for you in the `main` method .  
+   
+    
 2.  Write a `for`-loop and a `while`-loop in the relevant methods to
     compute the sum of natural numbers 1 thru `n` and return the 
-    result.  In the `main` method call your methods and output 
-    the result.  
-    
-3.  Write a an enhanced for-loop to iterate over the elements of the `zeroToTen`
-    array. As you iterate over the elements, concatenate each
-    string, delimiting each word with a plus sign and the
-    result at the end of the loop. Your result should look something
-    like the following:
-    
-    `zero + one + two + three + four + five + six + seven + eight + nine + ten = 55`
-
-### 3.2 Child Tax Credit
+    result.
+     
+### 2.2 Child Tax Credit
 
 When filing for federal taxes, a credit is given to tax payers with
 dependent children according to the following rules. The first (not necessarily
@@ -156,19 +100,8 @@ Total Credit:   $1500.00
     particular child’s age, you can use a *getter* method. For example,
     to get the age of `tom` you can use the syntax, `tom.getAge()`
 
-### 4. Testing, Submitting & Grading
+### 2. Testing, Submitting & Grading
 
-* Test your programs using the provided JUnit test suite(s).  Fix any
-errors and completely debug your programs.
-* Submit the following files through webhandin:
-  * `Natural.java`
-  * `ChildCredit.java`
-* Run the grader and verify the output to complete your lab.
-
-### Advanced Activity (Optional)
-
-Use the `String.format()` method to reformat the output of the Child Tax 
-Credit program to print every piece of data in its own column.
 
 ### 3.1 Testing Locally
 
@@ -190,6 +123,8 @@ To submit your lab, do the following:
 2. Click "Upload Assignment" for this lab.
 
 3. Click "Upload files" to upload `Statistics.java`, and then click the "Submit and run test" button.
+  * `Natural.java`
+  * `ChildCredit.java`
 
 4. Click on the "View test results" button to
 view the test results, and make sure that you pass all tests. 
