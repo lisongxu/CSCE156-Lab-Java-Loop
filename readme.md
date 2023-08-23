@@ -99,36 +99,11 @@ Total Credit:   $1500.00
     particular child’s age, you can use a *getter* method. For example,
     to get the age of `tom` you can use the syntax, `tom.getAge()`
 
-### 3. Testing, Submitting & Grading
+### 3. Testing, Submitting, and Grading
 
-
-### 3.1 Testing Locally
-
-Before you submit your lab, you should run the JUnit tests locally to verify 
-that your code is correct.  
-
-1. Expand the `src/test/java` directory, then expand the `unl.soc` package, and then double click on the `StatisiticsTests.java` file to open it.   
-2. Run the test suite by clicking the usual "Play" button.
-3. A report will be presented in a JUnit tab detailing which test cases pass and
-which fail along with expected output and the actual output (for 
-failed test cases).
-
-### 3.2 Submitting to CodePost
-
-To submit your lab, do the following:
-
-1. Login to https://codepost.io   
-
-2. Click "Upload Assignment" for this lab.
-
-3. Click "Upload files" to upload `Statistics.java`, and then click the "Submit and run test" button.
+* Test your programs locally on your computer using the provided JUnit test suite(s).  Fix any
+errors and completely debug your programs.
+* Submit the following files to CodePost:
   * `Natural.java`
   * `ChildCredit.java`
-
-4. Click on the "View test results" button to
-view the test results, and make sure that you pass all tests. 
-
-### 3.3 Grading
-
-For this lab, as long as you pass all the tests on Codepost, you will get full credit for the lab.
-
+* Make sure that your pograms pass all the tests on CodePost. For this lab, as long as your porograms pass all the tests on Codepost, you will get full credit for the lab.
