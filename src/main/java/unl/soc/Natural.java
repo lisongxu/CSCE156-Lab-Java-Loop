@@ -4,7 +4,7 @@ package unl.soc;
  * This program demonstrates the use of various loop control structures to
  * compute the sum of natural numbers.
  * 
- * @author cbourke
+ * @author cbourke, Lisong
  *
  */
 public class Natural {
@@ -43,22 +43,9 @@ public class Natural {
 			System.exit(1);
 		}
 
-		String zeroToTen[] = new String[11];
-		zeroToTen[0] = "zero";
-		zeroToTen[1] = "one";
-		zeroToTen[2] = "two";
-		zeroToTen[3] = "three";
-		zeroToTen[4] = "four";
-		zeroToTen[5] = "five";
-		zeroToTen[6] = "six";
-		zeroToTen[7] = "seven";
-		zeroToTen[8] = "eight";
-		zeroToTen[9] = "nine";
-		zeroToTen[10] = "ten";
-
-		// TODO: call your methods here and print the result
-
-		// TODO: write an enhanced for-loop to iterate over the zeroToTen array
-
+		System.out.println("The sum of natural numbers from 1 thru "+n+" is "+sumWithWhile(n)+" using sumWithWhile()");
+		
+		System.out.println("The sum of natural numbers from 1 thru "+n+" is "+sumWithFor(n)+" using sumWithFor()");
+		
 	}
 }
