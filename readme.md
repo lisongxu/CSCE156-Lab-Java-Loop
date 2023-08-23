@@ -1,17 +1,17 @@
 # Computer Science II
-## Lab 2.0 - Conditionals & Loops
+## Lab 3.0 - Conditionals & Loops
 
-An introduction to using conditionals and loops in the Java programming language.
-A separate folder containing a PHP version of this lab is also 
-included for the honors section.
+An introduction to the conditionals and loops in the Java programming language.
 
-This is a lab used in Computer Science II (CSCE 156, CSCE 156H) in the [Department of Computer Science & Engineering](https://cse.unl.edu) at the [University of Nebraska-Lincoln](https://unl.edu).
+This is a lab used in Computer Science II (CSCE 156) for Fall 2023 
+in the [School of Computing](https://computing.unl.edu) 
+at the [University of Nebraska-Lincoln](https://unl.edu).
 
 ## Overview
 
 ### Resources
 
-Prior to lab you should read/review the following resources.
+Java tutorial
 * `if-else tutorial`:
 http://download.oracle.com/javase/tutorial/java/nutsandbolts/if.html
 * `for` loop tutorial:
@@ -32,41 +32,21 @@ Following the lab, you should be able to:
 
 ### Peer Programming Pair-Up
 
-To encourage collaboration and a team environment, labs will be
-structured in a *pair programming* setup.  At the start of
-each lab, you may be randomly paired up with another student by
+At the start of
+each lab, you may find a team member by yourself or may be randomly paired up with another student by
 a lab instructor.  One of you will be designated the *driver* 
-and the other the *navigator*.  
-
-The navigator will be responsible for reading the instructions 
-and telling the driver what is to be done.  The driver will be 
-in charge of the keyboard and workstation.  Both driver and 
-navigator are responsible for suggesting fixes and solutions 
-*together*.  Neither the navigator nor the driver is "in charge."  
-Beyond your immediate pairing, you are encouraged to help and 
-interact and with other pairs in the lab.
-
+and the other the *navigator*. If you prefer to work on this lab by yourself, that is fine too.  
 Each week you should try to alternate: if you were a driver 
-last week, be a navigator next, etc.  Resolve any issues (you 
-were both drivers last week) within your pair.  Ask the lab 
-instructor to resolve issues only when you cannot come to a 
-consensus.  
+last week, be a navigator next, etc. 
 
-Because of the peer programming setup of labs, it is absolutely 
-essential that you complete any pre-lab activities and familiarize
-yourself with the handouts prior to coming to lab.  Failure to do
-so will negatively impact your ability to collaborate and work with 
-others which may mean that you will not be able to complete the
-lab.  
+***Note that, each student must submit the code to CodePost for grading.***
+
 
 ## 1. Getting Started
 
 Clone this project code for this lab from GitHub in Eclipse using the
-URL: https://github.com/cbourke/CSCE156-Lab02. Refer to Lab 1.0 for
+URL: https://github.com/lisongxu/CSCE156-Lab-Java-Loop. Refer to [Lab 1.0](https://github.com/lisongxu/CSCE156-Lab-Java-Intro) for
 instructions on how to clone a project from GitHub.
-
-For those with prior Java experience, do the PHP version of this
-lab. For those without prior Java experience, do the Java version.
 
 ## 2. Conditionals & Loops
 
@@ -190,4 +170,31 @@ errors and completely debug your programs.
 Use the `String.format()` method to reformat the output of the Child Tax 
 Credit program to print every piece of data in its own column.
 
+### 3.1 Testing Locally
+
+Before you submit your lab, you should run the JUnit tests locally to verify 
+that your code is correct.  
+
+1. Expand the `src/test/java` directory, then expand the `unl.soc` package, and then double click on the `StatisiticsTests.java` file to open it.   
+2. Run the test suite by clicking the usual "Play" button.
+3. A report will be presented in a JUnit tab detailing which test cases pass and
+which fail along with expected output and the actual output (for 
+failed test cases).
+
+### 3.2 Submitting to CodePost
+
+To submit your lab, do the following:
+
+1. Login to https://codepost.io   
+
+2. Click "Upload Assignment" for this lab.
+
+3. Click "Upload files" to upload `Statistics.java`, and then click the "Submit and run test" button.
+
+4. Click on the "View test results" button to
+view the test results, and make sure that you pass all tests. 
+
+### 3.3 Grading
+
+For this lab, as long as you pass all the tests on Codepost, you will get full credit for the lab.
 
