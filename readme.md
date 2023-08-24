@@ -69,7 +69,7 @@ dependent children according to the following rules.
 the oldest) dependent
 child younger than 18 is worth a $1,000.00 credit.
 * Each dependent child
-younger than 18 after the first child is worth a $500 tax credit each.
+younger than 18 after the first child is worth a $500.00 tax credit each.
 
 You will complete a Java program to output a table of dependent
 children, how much each contributes to a tax credit, and a total child
@@ -87,11 +87,11 @@ Total Credit:   $1500.00
 
 2.  The `Child` class has already been implemented for you. Note how the 
     `Child` class is used.  Several instances of children have been created 
-    and placed into a `List`.
+    and placed into a `List` in the `main` method of `ChildCredit`.
 
     Similar to an array, a `List` stores elements using 0-indexing. Each one
     can be accessed using the `get` method. For example, `Child c = kids.get(i)` gets 
-    the i-th kid and assigns it to `c`.  
+    the i-th kid and assigns it to variable `c`.  
 
 3.  Implement the `produceReport` method to compute the child tax credit(s)
     and output a table similar to the one above.  Your method ***should return
