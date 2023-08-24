@@ -63,10 +63,14 @@ instructions on how to use the command line argument.
 ### 2.2 Child Tax Credit
 
 When filing for federal taxes, a credit is given to tax payers with
-dependent children according to the following rules. The first (not necessarily
+dependent children according to the following rules. 
+
+* The first (not necessarily
 the oldest) dependent
-child younger than 18 is worth a $1,000.00 credit. Each dependent child
+child younger than 18 is worth a $1,000.00 credit.
+* Each dependent child
 younger than 18 after the first child is worth a $500 tax credit each.
+
 You will complete a Java program to output a table of dependent
 children, how much each contributes to a tax credit, and a total child
 tax credit. Your table should look something like the following.
@@ -86,18 +90,15 @@ Total Credit:   $1500.00
     and placed into a `List`.
 
     Similar to an array, a `List` stores elements using 0-indexing. Each one
-    can be accessed using the `get` method. For example, `kids.get(i)` gets 
-    the i-th kid.  You could also use an *enhanced for loop* to iterate over 
-    the elements in the `List`.
+    can be accessed using the `get` method. For example, `Child c = kids.get(i)` gets 
+    the i-th kid and assigns it to `c`.  
 
 3.  Implement the `produceReport` method to compute the child tax credit(s)
     and output a table similar to the one above.  Your method ***should return
     the grand total of the credit***.  
     
     Each child is an *instance* of the `Child` class. Each instance has its own
-    variables so that each child can be a different age. To get a
-    particular child’s age, you can use a *getter* method. For example,
-    to get the age of `tom` you can use the syntax, `tom.getAge()`
+    variables so that each child can be a different age. For example, for `Child c`, `c.getAge()` returns the age, and `c.getName()` returns the name. 
 
 ### 3. Testing, Submitting, and Grading
 
