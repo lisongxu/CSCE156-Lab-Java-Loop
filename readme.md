@@ -25,6 +25,8 @@ Following the lab, you should be able to:
 * Write complex programs that require conditional logical statements
   and loops.
 
+Note that the lab may involve some concepts, classes, or methods not covered (yet) in the class. You should be able to complete the lab without fully understanding them. If you have any questions about them, please feel free to ask our LAs. 
+
 ### Peer Programming Pair-Up
 
 At the start of
