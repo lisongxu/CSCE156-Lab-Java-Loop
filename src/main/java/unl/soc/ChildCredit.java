@@ -24,6 +24,7 @@ public class ChildCredit {
 	public static int produceReport(List<Child> kids) {
 		// TODO: write a loop to iterate over the elements in the child array
 		// and output a table as specified
+		// and return the total child tax credit
 		return 0;
 
 	}
