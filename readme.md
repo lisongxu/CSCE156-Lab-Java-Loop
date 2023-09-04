@@ -93,7 +93,7 @@ Total Credit:   $1500.00
 
     Similar to an array, a `List` stores elements using 0-indexing. Each one
     can be accessed using the `get` method. For example, `Child c = kids.get(i)` gets 
-    the i-th kid and assigns it to variable `c`.  
+    the i-th kid and assigns it to variable `c`.  The total number of elements in a `List` can be obatined using `size()` method. 
 
 3.  Implement the `produceReport` method to compute the child tax credit(s)
     and output a table similar to the one above.  Your method ***should return
