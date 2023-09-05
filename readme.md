@@ -109,4 +109,4 @@ errors and completely debug your programs.
 * Submit the following files to CodePost:
   * `Natural.java`
   * `ChildCredit.java`
-* Make sure that your pograms pass all the tests on CodePost. For this lab, as long as your porograms pass all the tests on Codepost, you will get full points for the lab.
+* Make sure that your pograms pass all the tests on CodePost. For this lab, as long as your programs pass all the tests on Codepost, you will get full points for the lab.
