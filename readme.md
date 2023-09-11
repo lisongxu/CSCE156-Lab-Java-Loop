@@ -41,7 +41,7 @@ last week, be a navigator next, etc.
 ## 1. Getting Started
 
 Clone this project code for this lab from GitHub in Eclipse using the
-URL: https://github.com/lisongxu/CSCE156-Lab-Java-Loop. Refer to [Lab 1.0](https://github.com/lisongxu/CSCE156-Lab-Java-Intro) for
+URL: `https://github.com/lisongxu/CSCE156-Lab-Java-Loop`. Refer to [Lab 1.0](https://github.com/lisongxu/CSCE156-Lab-Java-Intro) for
 instructions on how to clone a project from GitHub.
 
 ## 2. Activities 
