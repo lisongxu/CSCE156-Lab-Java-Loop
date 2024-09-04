@@ -3,7 +3,7 @@
 
 An introduction to the loops in the Java programming language.
 
-This is a lab used in Computer Science II (CSCE 156) for Fall 2023 
+This is a lab used in Computer Science II (CSCE 156) for Fall 2024 
 in the [School of Computing](https://computing.unl.edu) 
 at the [University of Nebraska-Lincoln](https://www.unl.edu).
 
@@ -30,12 +30,11 @@ Note that the lab may involve some concepts, classes, or methods not covered (ye
 ### Peer Programming Pair-Up
 
 At the start of
-each lab, you may find a team member by yourself or may be randomly paired up with another student by
+each lab, you may find a team member by yourself or randomly paired up with another student by
 a lab instructor.  One of you will be designated the *driver* 
-and the other the *navigator*. If you prefer to work on this lab by yourself, that is fine too.  Each week you should try to alternate: if you were a driver 
-last week, be a navigator next, etc. 
+and the other the *navigator*. If you prefer to work on this lab by yourself, that is fine too.  Each week you should try to alternate: if you were a driver last week, be a navigator next, etc. 
 
-***Note that, each student must submit the code to CodePost for grading.***
+***Note that each student must submit the code to GradeScope for grading.***
 
 
 ## 1. Getting Started
@@ -49,22 +48,22 @@ instructions on how to clone a project from GitHub.
 ### 2.1 Sum of Natural Numbers
 
 Natural numbers are the usual counting numbers; 1, 2, 3, ... In this
-exercise you will write several loops to compute the sum of natural
-numbers 1 thru `n` where `n` is read from the command line. Refer to [Lab 1.0](https://github.com/lisongxu/CSCE156-Lab-Java-Intro) for
+exercise, you will write several loops to compute the sum of natural
+numbers 1 through `n` where `n` is read from the command line. Refer to [Lab 1.0](https://github.com/lisongxu/CSCE156-Lab-Java-Intro) for
 instructions on how to use the command line argument. 
 
 1.  Open the `Natural.java` source file. The code to read in `n` has been
     provided for you. The code to output 
-    the result has also been provided for you in the `main` method .  
+    the result has also been provided for you in the `main` method.  
    
     
 2.  Write a `for`-loop and a `while`-loop in the relevant methods to
-    compute the sum of natural numbers 1 thru `n` and return the 
+    compute the sum of natural numbers 1 through `n` and return the 
     result.
      
 ### 2.2 Child Tax Credit
 
-When filing for federal taxes, a credit is given to tax payers with
+When filing for federal taxes, a credit is given to taxpayers with
 dependent children according to the following rules. 
 
 * The first (not necessarily
@@ -93,7 +92,7 @@ Total Credit:   $1500.00
 
     Similar to an array, a `List` stores elements using 0-indexing. Each one
     can be accessed using the `get` method. For example, `Child c = kids.get(i)` gets 
-    the i-th kid and assigns it to variable `c`.  The total number of elements in a `List` can be obatined using `size()` method. 
+    the i-th kid and assigns it to variable `c`.  The total number of elements in a `List` can be obtained using the `size()` method. 
 
 3.  Implement the `produceReport` method to compute the child tax credit(s)
     and output a table similar to the one above.  Your method ***should return
@@ -106,7 +105,7 @@ Total Credit:   $1500.00
 
 * Test your programs locally on your computer using the provided JUnit test suites.  Fix any
 errors and completely debug your programs.
-* Submit the following files to CodePost:
+* Submit the following files to GradeScope:
   * `Natural.java`
   * `ChildCredit.java`
-* Make sure that your programs pass all the tests on CodePost. For this lab, as long as your programs pass all the tests on Codepost, you will get full points for the lab.
+* Make sure that your programs pass all the tests on GradeScope. For this lab, as long as your programs pass all the tests on GradeScope, you will get full points for the lab.
