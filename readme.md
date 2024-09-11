@@ -96,7 +96,7 @@ Total Credit:   $1500.00
 
 3.  Implement the `produceReport` method to compute the child tax credit(s)
     and output a table similar to the one above.  Your method ***should return
-    the grand total of the credit***.  
+    the grand total of the credit that is an int value***.  
     
     Each child is an *instance* of the `Child` class. Each instance has its own
     variables so that each child can be a different age. For example, for `Child c`, `c.getAge()` returns the age, and `c.getName()` returns the name. 
