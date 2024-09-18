@@ -106,16 +106,16 @@ Total Credit:   $1500.00
 * Test your programs locally on your computer using the provided JUnit test suites.  Fix any
 errors and completely debug your programs.
 
-  1. Expand the `src/test/java` directory, then expand the `unl.soc` package, and then double click on the `ChildCreditTests.java` file to open it. 
-  2. Run the test suites by clicking the usual "Play" button.
-  3. Fix any errors and completely debug your programs. 
-  4. Expand the `src/test/java` directory, then expand the `unl.soc` package, and then double click on the `NaturalTests.java` file to open it. 
-  5. Run the test suites by clicking the usual "Play" button.
-  6. Fix any errors and completely debug your programs.
+    1. Expand the `src/test/java` directory, then expand the `unl.soc` package, and then double click on the `ChildCreditTests.java` file to open it. 
+    2. Run the test suites by clicking the usual "Play" button.
+    3. Fix any errors and completely debug your programs. 
+    4. Expand the `src/test/java` directory, then expand the `unl.soc` package, and then double click on the `NaturalTests.java` file to open it. 
+    5. Run the test suites by clicking the usual "Play" button.
+    6. Fix any errors and completely debug your programs.
   
 * Submit the following files to GradeScope. ***Do not upload any other files.***
-  * ***`Natural.java`***
-  * ***`ChildCredit.java`***
+    * ***`Natural.java`***
+    * ***`ChildCredit.java`***
 
 * Make sure that your programs pass all the tests on GradeScope. For this lab, as long as your programs pass all the tests on GradeScope, you will get full points for the lab.
 
