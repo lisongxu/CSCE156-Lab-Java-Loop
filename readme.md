@@ -3,7 +3,7 @@
 
 An introduction to the loops in the Java programming language.
 
-This is a lab used in Computer Science II (CSCE 156) for Fall 2024 
+This is a lab used in Computer Science II (CSCE 156) for Fall 2025 
 in the [School of Computing](https://computing.unl.edu) 
 at the [University of Nebraska-Lincoln](https://www.unl.edu).
 
@@ -29,10 +29,7 @@ Note that the lab may involve some concepts, classes, or methods not covered (ye
 
 ### Peer Programming Pair-Up
 
-At the start of
-each lab, you may find a team member by yourself or randomly paired up with another student by
-a lab instructor.  One of you will be designated the *driver* 
-and the other the *navigator*. If you prefer to work on this lab by yourself, that is fine too.  Each week you should try to alternate: if you were a driver last week, be a navigator next, etc. 
+At the start of each lab, you may find a team member by yourself.  One of you will be designated the *driver*  and the other the *navigator*. Each week you should try to alternate: if you were a driver last week, be a navigator next, etc. If you prefer to work on this lab alone, that is fine too.   
 
 ***Note that each student must submit the code to GradeScope for grading.***
 
@@ -72,9 +69,7 @@ child younger than 18 is worth a $1,000.00 credit.
 * Each dependent child
 younger than 18 after the first child is worth a $500.00 tax credit each.
 
-You will complete a Java program to output a table of dependent
-children, how much each contributes to a tax credit, and a total child
-tax credit. Your table should look something like the following.
+You will complete a Java program to output a table of dependent children, how much each contributes to a tax credit, and the total child tax credit. Your table should look something like the following.
 
 ```text
 Child           Amount
@@ -92,11 +87,10 @@ Total Credit:   $1500.00
 
     Similar to an array, a `List` stores elements using 0-indexing. Each one
     can be accessed using the `get` method. For example, `Child c = kids.get(i)` gets 
-    the i-th kid and assigns it to variable `c`.  The total number of elements in a `List` can be obtained using the `size()` method. 
+    the i-th kid and assigns it to the variable `c`.  The total number of elements in a `List` can be obtained using the `size()` method. 
 
 3.  Implement the `produceReport` method to compute the child tax credit(s)
-    and output a table similar to the one above.  Your method ***should return
-    the grand total of the credit that is an int value***.  
+    and output a table similar to the one above.  Your method ***should return the grand total of the credit that is an int value***.  
     
     Each child is an *instance* of the `Child` class. Each instance has its own
     variables so that each child can be a different age. For example, for `Child c`, `c.getAge()` returns the age, and `c.getName()` returns the name. 
@@ -106,10 +100,10 @@ Total Credit:   $1500.00
 * Test your programs locally on your computer using the provided JUnit test suites.  Fix any
 errors and completely debug your programs.
 
-    1. Expand the `src/test/java` directory, then expand the `unl.soc` package, and then double click on the `ChildCreditTests.java` file to open it. 
+    1. Expand the `src/test/java` directory, then expand the `unl.soc` package, and then double-click on the `ChildCreditTests.java` file to open it. 
     2. Run the test suites by clicking the usual "Play" button.
     3. Fix any errors and completely debug your programs. 
-    4. Expand the `src/test/java` directory, then expand the `unl.soc` package, and then double click on the `NaturalTests.java` file to open it. 
+    4. Expand the `src/test/java` directory, then expand the `unl.soc` package, and then double-click on the `NaturalTests.java` file to open it. 
     5. Run the test suites by clicking the usual "Play" button.
     6. Fix any errors and completely debug your programs.
   
