@@ -12,9 +12,9 @@ at the [University of Nebraska-Lincoln](https://www.unl.edu).
 ### Resources
 
 * `for` loop tutorial:
-http://download.oracle.com/javase/tutorial/java/nutsandbolts/for.html
+http://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html
 * `while` loop tutorial:
-http://download.oracle.com/javase/tutorial/java/nutsandbolts/while.html
+http://docs.oracle.com/javase/tutorial/java/nutsandbolts/while.html
 
 
 ### Lab Objectives & Topics
