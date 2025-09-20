@@ -1,5 +1,5 @@
 # Computer Science II
-## Lab 3.0 - Loops
+## Lab 3 - Loops
 
 An introduction to the loops in the Java programming language.
 
