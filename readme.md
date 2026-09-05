@@ -95,7 +95,7 @@ Total Credit:   $1500.00
     Each child is an *instance* of the `Child` class. Each instance has its own
     variables so that each child can be a different age. For example, for `Child c`, `c.getAge()` returns the age, and `c.getName()` returns the name. 
 
-### 3. Testing, Submitting, and Grading
+## 3. Testing, Submitting, and Grading
 
 * Test your programs locally on your computer using the provided JUnit test suites.  Fix any
 errors and completely debug your programs.
@@ -113,4 +113,4 @@ errors and completely debug your programs.
 
 * Make sure that your programs pass all the tests on Gradescope. For this lab, as long as your programs pass all the tests on Gradescope, you will get full points for the lab.
 
-* What if the test on Gradescope fails? Please test your programs locally on your computer using the provided JUnit test suite, because the test on Gradescope is exactly the same as the provided JUnit test suite. **Debugging your programs on Gradescope is not recommended because Gradescope gives very limited information.***
+* What if the test on Gradescope fails? Please test your programs locally on your computer using the provided JUnit test suite, because the test on Gradescope is exactly the same as the provided JUnit test suite. ***Debugging your programs on Gradescope is not recommended because Gradescope gives very limited information.***
