@@ -80,26 +80,29 @@ Total Credit:   $1500.00
 
 1.  Open the `Child.java` and `ChildCredit.java` source files
 
-2.  The `Child` class has already been implemented for you. Note how the 
-    `Child` class is used.  Several instances of children have been created 
+2.  The `Child` class has already been implemented for you. Note how the
+    `Child` class is used. Several instances of children have been created
     and placed into a `List` in the `main` method of `ChildCredit`.
 
-    Similar to an array, a `List` stores an ordered collection of elements. You do not need to understand all of the details of a `List` for this lab. You only need the following two operations:
+    A `List` stores an ordered collection of elements. You do not need to
+    understand all of the details of a `List` for this lab. You only need
+    the following two operations:
 
-* `kids.size()` returns the number of children in the list.
-* `kids.get(i)` returns the child at position `i`.
+    * `kids.size()` returns the number of children in the list.
+    * `kids.get(i)` returns the child at position `i`.
 
-You can visit every child in the list using the following loop:
+    You can visit every child in the list using the following loop:
 
-```java
-for (int i = 0; i < kids.size(); i++) {
-    Child c = kids.get(i);
-    // Process c here
-}
-```
-You do not need to modify `Child.java`.
+    ```java
+    for (int i = 0; i < kids.size(); i++) {
+        Child c = kids.get(i);
+        // Process c here
+    }
+    ```
 
-3.  Implement the `produceReport` method to compute the child tax credit(s)
+    You do not need to modify `Child.java`.
+    
+4.  Implement the `produceReport` method to compute the child tax credit(s)
     and output a table similar to the one above.  Your method ***should return the grand total of the credit that is an int value***.  
     
     Each child is an *instance* of the `Child` class. Each instance has its own
