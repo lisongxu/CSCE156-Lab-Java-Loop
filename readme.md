@@ -63,11 +63,10 @@ instructions on how to use the command line argument.
 When filing for federal taxes, a credit is given to taxpayers with
 dependent children according to the following rules. 
 
-* The first (not necessarily
-the oldest) dependent
-child younger than 18 is worth a $1,000.00 credit.
-* Each dependent child
-younger than 18 after the first child is worth a $500.00 tax credit each.
+* The first (not necessarily the oldest) dependent child younger than 18 is worth a $1,000.00 credit.
+* Each dependent child younger than 18 after the first child is worth a $500.00 tax credit each.
+
+Here, the first child means the first child younger than 18 encountered while processing the list. A child who is 18 or older does not use the $1,000 first-child credit.
 
 You will complete a Java program to output a table of dependent children, how much each contributes to a tax credit, and the total child tax credit. Your table should look something like the following.
 
@@ -98,6 +97,7 @@ for (int i = 0; i < kids.size(); i++) {
     // Process c here
 }
 ```
+You do not need to modify `Child.java`.
 
 3.  Implement the `produceReport` method to compute the child tax credit(s)
     and output a table similar to the one above.  Your method ***should return the grand total of the credit that is an int value***.  
