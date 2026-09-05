@@ -85,9 +85,19 @@ Total Credit:   $1500.00
     `Child` class is used.  Several instances of children have been created 
     and placed into a `List` in the `main` method of `ChildCredit`.
 
-    Similar to an array, a `List` stores elements using 0-indexing. Each one
-    can be accessed using the `get` method. For example, `Child c = kids.get(i)` gets 
-    the i-th kid and assigns it to the variable `c`.  The total number of elements in a `List` can be obtained using the `size()` method. 
+    Similar to an array, a `List` stores an ordered collection of elements. You do not need to understand all of the details of a `List` for this lab. You only need the following two operations:
+
+* `kids.size()` returns the number of children in the list.
+* `kids.get(i)` returns the child at position `i`.
+
+You can visit every child in the list using the following loop:
+
+```java
+for (int i = 0; i < kids.size(); i++) {
+    Child c = kids.get(i);
+    // Process c here
+}
+
 
 3.  Implement the `produceReport` method to compute the child tax credit(s)
     and output a table similar to the one above.  Your method ***should return the grand total of the credit that is an int value***.  
