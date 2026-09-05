@@ -97,7 +97,7 @@ for (int i = 0; i < kids.size(); i++) {
     Child c = kids.get(i);
     // Process c here
 }
-
+```
 
 3.  Implement the `produceReport` method to compute the child tax credit(s)
     and output a table similar to the one above.  Your method ***should return the grand total of the credit that is an int value***.  
