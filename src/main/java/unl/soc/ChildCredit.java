@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * This program produces a report on how much a a tax payer can expect for their
+ * This program produces a report on how much a taxpayer can expect from their
  * child tax credits.
  * 
  * @author cbourke
@@ -22,7 +22,7 @@ public class ChildCredit {
 	 * @return
 	 */
 	public static int produceReport(List<Child> kids) {
-		// TODO: write a loop to iterate over the elements in the child array
+		// TODO: write a loop to iterate over the elements in the kids list
 		// and output a table as specified
 		// and return the total child tax credit
 		return 0;
