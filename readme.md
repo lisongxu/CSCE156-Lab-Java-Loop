@@ -3,7 +3,7 @@
 
 An introduction to the loops in the Java programming language.
 
-This is a lab used in Computer Science II (CSCE 156) for Fall 2025 
+This is a lab used in Computer Science II (CSCE 156) for Fall 2026 
 in the [School of Computing](https://computing.unl.edu) 
 at the [University of Nebraska-Lincoln](https://www.unl.edu).
 
@@ -31,7 +31,7 @@ Note that the lab may involve some concepts, classes, or methods not covered (ye
 
 At the start of each lab, you may find a team member by yourself.  One of you will be designated the *driver*  and the other the *navigator*. Each week you should try to alternate: if you were a driver last week, be a navigator next, etc. If you prefer to work on this lab alone, that is fine too.   
 
-***Note that each student must submit the code to GradeScope for grading.***
+***Note that each student must submit the code to Gradescope for grading.***
 
 
 ## 1. Getting Started
@@ -107,10 +107,10 @@ errors and completely debug your programs.
     5. Run the test suites by clicking the usual "Play" button.
     6. Fix any errors and completely debug your programs.
   
-* Submit the following files to GradeScope. ***Do not upload any other files.***
+* Submit the following files to Gradescope. ***Do not upload any other files.***
     * ***`Natural.java`***
     * ***`ChildCredit.java`***
 
-* Make sure that your programs pass all the tests on GradeScope. For this lab, as long as your programs pass all the tests on GradeScope, you will get full points for the lab.
+* Make sure that your programs pass all the tests on Gradescope. For this lab, as long as your programs pass all the tests on Gradescope, you will get full points for the lab.
 
-* What if the test on GradeScope fails? Please test your programs locally on your computer using the provided JUnit test suite, because the test on GradeScope is exactly the same as the provided JUnit test suite. **Debugging your programs on GradeScope is not recommended because GradeScope gives very limited information.***
+* What if the test on Gradescope fails? Please test your programs locally on your computer using the provided JUnit test suite, because the test on Gradescope is exactly the same as the provided JUnit test suite. **Debugging your programs on Gradescope is not recommended because Gradescope gives very limited information.***
